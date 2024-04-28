@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head></head>
+<head>
+    <style>
+        .btn {
+            background-color: #64B5F6;
+            width: 150px;
+            height: 50px;
+            top: 15px;
+            right: 20px;
+            position: absolute;
+            cursor: pointer;
+            z-index: 1;
+            border: 0px;
+            border-radius: 20px;
+            align-items: center;
+        }
+
+        .btn:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
 <body>
     <img class="homePage_Bkg" style="width: 100%; min-width: 1300px; left: 0%; top: 0%; position: absolute" src="images/homepage_bkg.png" />
     <button style="background-image: url(images/logo.png); background-repeat: no-repeat; width: 60px; background-size: contain; height: 80px; left: 10px; top: 10px; position: absolute; cursor: pointer; z-index: 1; border: none; background-color: transparent;" onclick="window.location.href='index.html';"></button>
     <button style="height: 70px; left: 70px; top: 10px; position: absolute; cursor: pointer; z-index: 1; border: none; background-color: transparent;" onclick="window.location.href='index.html'; ">
-        <h1 style="font-size: 35px; font-family: Georgia, serif; font-weight: lighter;">Rate My Doctor</h1>
+        <h2 style="font-size: 35px; font-family: Georgia, serif; font-weight: lighter;">Rate My Doctor</h2>
     </button>
-    <!-- <button class="btn" style="width: 100px; height: 100px; top: 10px; left: 10px; position: absolute; cursor: pointer; z-index: 1; background-color: blue; border: 0px;" onclick="window.location.href='login.html';"></button> -->
+    <button class="btn" onclick="window.location.href='signUp.html';"  >
+        <h1 style="font-size: 25px; font-family: Georgia, serif; bottom: 10px; line-height: 10px;">Sign Up</h1>
+    </button>
+    <h2 style="font-size: 70px; font-family: Georgia, sans-serif; top: 20%; left: 8%; position: absolute; font-weight: 550;">You deserve</h2>
+    <h2 style="font-size: 70px; font-family: Georgia, sans-serif; top: 30%; left: 8%; position: absolute; font-weight: 550;">the best.</h2>
 </body>
 </html>
