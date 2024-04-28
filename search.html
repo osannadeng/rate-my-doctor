@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .btn {
+            background-color: #BBDEFB;
+            width: 150px;
+            height: 50px;
+            top: 15px;
+            right: 20px;
+            position: absolute;
+            cursor: pointer;
+            z-index: 1;
+            border: 0px;
+            border-radius: 20px;
+            align-items: center;
+        }
+        .btn2 {
+            background-color: #BBDEFB;
+            width: 330px;
+            height: 51px;
+            top: 150px;
+            left: 40%;
+            position: absolute;
+            z-index: 1;
+            border: 0px;
+            border-radius: 20px;
+            align-items: center;
+        }
+
+        .btn:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <img style="width: 100%; min-width: 1300px; left: 0%; top: 0%; position: absolute;" src="images/searchpage_bkg.png" />
+    <button style="background-image: url(images/logo.png); background-repeat: no-repeat; width: 60px; background-size: contain; height: 80px; left: 10px; top: 10px; position: absolute; cursor: pointer; z-index: 1; border: none; background-color: transparent;" onclick="window.location.href='index.html';"></button>
+    <button style="height: 70px; left: 70px; top: 0px; position: absolute; cursor: pointer; z-index: 1; border: none; background-color: transparent;" onclick="window.location.href='index.html'; ">
+        <h2 style="font-size: 35px; font-family: Georgia, serif; font-weight: lighter;">Rate My Doctor</h2>
+    </button>
+    <button class="btn" onclick="window.location.href='sign.html';"  >
+        <h1 style="font-size: 25px; font-family: Georgia, sans-serif; bottom: 10px; line-height: 10px; font-weight: 600;">Sign Up</h1>
+    </button>
+    <button style="height: 50px; right: 190px; top: 10px; position: absolute; cursor: pointer; z-index: 1; border: none; background-color: transparent;" onclick="window.location.href='login.html'; ">
+        <h2 style="font-size: 22px; font-family: Georgia, sans-serif; font-weight: lighter;">Log In</h2>
+    </button>
+    <!-- doc 1 -->
+    <img style="width: 307px; height: 370px; left: 10%; top: 33%; position: absolute; background-color: transparent;" src="images/doc1.png" />
+    <h2 style="font-size: 60px; font-family: Georgia, sans-serif; top: 30%; left: 40%; position: absolute; font-weight: 550;">Dr. Jennifer Kim</h2>
+    <h2 style="font-size: 18px; font-family: Georgia, sans-serif; top: 44%; left: 40%; position: absolute; font-weight: 400;">Physician in Riverside, California</h2>
+    <!-- n / 5 stars -->
+    <img style="width: 100%; width: 50px; left: 40%; top: 52%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 45%; top: 52%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 50%; top: 52%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 55%; top: 52%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 60%; top: 52%; position: absolute; background-color: transparent;" src="images/gstar.png" />
+    <h2 style="font-size: 22px; font-family: Georgia, sans-serif; top: 52%; left: 65%; position: absolute; font-weight: 400;">72 reviews</h2>
+    <!-- add review -->
+    <button style="height: 20px; left: 40%; top: 58%; position: absolute; cursor: pointer; z-index: 1; border: none; background-color: transparent;" onclick="window.location.href='review.html'; ">
+        <h2 style="font-size: 18px; font-family: Georgia, sans-serif; font-weight: lighter; color: rgb(133, 133, 133)">Leave a review</h2>
+    </button>
+    <div class="Search1" style="width: 100%; height: 299px; transform: translateY(190%); position: relative; background: transparent; overflow-x: scroll; gap: 0px 320px;">
+        <div class="ScrollReviews1" style="width: calc(60% - 40px); padding-right: 20px; left: 40%; top: 0%; position: absolute; justify-content: flex-start; align-items: flex-start; display: flex; overflow-x: auto;">
+            <div class="Doc1Revs" style="width: 1248px; height: 299px; position: relative;">
+                <img style="width: 1248px; height: 299px; left: 0px; top: 0px; position: absolute;" src="images/doc1_rev.png"/>
+            </div>
+        </div>
+    </div>
+    <!-- doc 2 -->
+    <img style="width: 307px; height: 370px; left: 10%; top: 100%; position: absolute; background-color: transparent;" src="images/doc2.png" />
+    <h2 style="font-size: 60px; font-family: Georgia, sans-serif; top: 97%; left: 40%; position: absolute; font-weight: 550;">Dr. Jason Roberts</h2>
+    <h2 style="font-size: 18px; font-family: Georgia, sans-serif; top: 111%; left: 40%; position: absolute; font-weight: 400;">Physician in Riverside, California</h2>
+    <!-- n / 5 stars -->
+    <img style="width: 100%; width: 50px; left: 40%; top: 119%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 45%; top: 119%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 50%; top: 119%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 55%; top: 119%; position: absolute; background-color: transparent;" src="images/gstar.png" />
+    <img style="width: 100%; width: 50px; left: 60%; top: 119%; position: absolute; background-color: transparent;" src="images/gstar.png" />
+    <h2 style="font-size: 22px; font-family: Georgia, sans-serif; top: 119%; left: 65%; position: absolute; font-weight: 400;">47 reviews</h2>
+    <!-- add review -->
+    <button style="height: 20px; left: 40%; top: 125%; position: absolute; cursor: pointer; z-index: 1; border: none; background-color: transparent;" onclick="window.location.href='review.html'; ">
+        <h2 style="font-size: 18px; font-family: Georgia, sans-serif; font-weight: lighter; color: rgb(133, 133, 133)">Leave a review</h2>
+    </button>
+    <div class="Search2" style="width: 100%; height: 299px; transform: translateY(300%); position: relative; background: transparent; overflow-x: scroll; gap: 0px 320px">
+        <div class="ScrollReviews2" style="width: calc(60% - 40px); padding-right: 20px; left: 40%; top: 0%; position: absolute; justify-content: flex-start; align-items: flex-start; display: flex; overflow-x: auto;">
+            <div class="Doc2Revs" style="width: 1248px; height: 299px; position: relative;">
+                <img style="width: 1248px; height: 299px; left: 0px; top: 0px; position: absolute;" src="images/doc2_rev.png"/>
+            </div>
+        </div>
+    </div>
+    <!-- doc 3 -->
+    <img style="width: 307px; height: 370px; left: 10%; top: 167%; position: absolute; background-color: transparent;" src="images/doc3.png" />
+    <h2 style="font-size: 60px; font-family: Georgia, sans-serif; top: 164%; left: 40%; position: absolute; font-weight: 550;">Dr. Cheryl Mitchell</h2>
+    <h2 style="font-size: 18px; font-family: Georgia, sans-serif; top: 178%; left: 40%; position: absolute; font-weight: 400;">Physician in Riverside, California</h2>
+    <!-- n / 5 stars -->
+    <img style="width: 100%; width: 50px; left: 40%; top: 186%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 45%; top: 186%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 50%; top: 186%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 55%; top: 186%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 60%; top: 186%; position: absolute; background-color: transparent;" src="images/gstar.png" />
+    <h2 style="font-size: 22px; font-family: Georgia, sans-serif; top: 186%; left: 65%; position: absolute; font-weight: 400;">33 reviews</h2>
+    <!-- add review -->
+    <button style="height: 20px; left: 40%; top: 192%; position: absolute; cursor: pointer; z-index: 1; border: none; background-color: transparent;" onclick="window.location.href='review.html'; ">
+        <h2 style="font-size: 18px; font-family: Georgia, sans-serif; font-weight: lighter; color: rgb(133, 133, 133)">Leave a review</h2>
+    </button>
+    <div class="Search3" style="width: 100%; height: 299px; transform: translateY(410%); position: relative; background: transparent; overflow-x: scroll; gap: 0px 320px">
+        <div class="ScrollReviews3" style="width: calc(60% - 40px); padding-right: 20px; left: 40%; top: 0%; position: absolute; justify-content: flex-start; align-items: flex-start; display: flex; overflow-x: auto;">
+            <div class="Doc3Revs" style="width: 1248px; height: 299px; position: relative;">
+                <img style="width: 1248px; height: 299px; left: 0px; top: 0px; position: absolute;" src="images/doc3_rev.png"/>
+            </div>
+        </div>
+    </div>
+    <!-- doc 4 -->
+    <img style="width: 307px; height: 370px; left: 10%; top: 234%; position: absolute; background-color: transparent;" src="images/doc4.png" />
+    <h2 style="font-size: 60px; font-family: Georgia, sans-serif; top: 231%; left: 40%; position: absolute; font-weight: 550;">Dr. Caesar Cassell</h2>
+    <h2 style="font-size: 18px; font-family: Georgia, sans-serif; top: 245%; left: 40%; position: absolute; font-weight: 400;">Physician in Riverside, California</h2>
+    <!-- n / 5 stars -->
+    <img style="width: 100%; width: 50px; left: 40%; top: 253%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 45%; top: 253%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 50%; top: 253%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 55%; top: 253%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 60%; top: 253%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <h2 style="font-size: 22px; font-family: Georgia, sans-serif; top: 253%; left: 65%; position: absolute; font-weight: 400;">77 reviews</h2>
+    <!-- add review -->
+    <button style="height: 20px; left: 40%; top: 259%; position: absolute; cursor: pointer; z-index: 1; border: none; background-color: transparent;" onclick="window.location.href='review.html'; ">
+        <h2 style="font-size: 18px; font-family: Georgia, sans-serif; font-weight: lighter; color: rgb(133, 133, 133)">Leave a review</h2>
+    </button>
+    <div class="Search3" style="width: 100%; height: 299px; transform: translateY(520%); position: relative; background: transparent; overflow-x: scroll; gap: 0px 320px">
+        <div class="ScrollReviews3" style="width: calc(60% - 40px); padding-right: 20px; left: 40%; top: 0%; position: absolute; justify-content: flex-start; align-items: flex-start; display: flex; overflow-x: auto;">
+            <div class="Doc3Revs" style="width: 1248px; height: 299px; position: relative;">
+                <img style="width: 1248px; height: 299px; left: 0px; top: 0px; position: absolute;" src="images/doc4_rev.png"/>
+            </div>
+        </div>
+    </div>
+    <!-- doc 5 -->
+    <img style="width: 307px; height: 370px; left: 10%; top: 301%; position: absolute; background-color: transparent;" src="images/doc5.png" />
+    <h2 style="font-size: 60px; font-family: Georgia, sans-serif; top: 298%; left: 40%; position: absolute; font-weight: 550;">Dr. Caesar Cassell</h2>
+    <h2 style="font-size: 18px; font-family: Georgia, sans-serif; top: 312%; left: 40%; position: absolute; font-weight: 400;">Physician in Riverside, California</h2>
+    <!-- n / 5 stars -->
+    <img style="width: 100%; width: 50px; left: 40%; top: 320%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 45%; top: 320%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 50%; top: 320%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 55%; top: 320%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 60%; top: 320%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <h2 style="font-size: 22px; font-family: Georgia, sans-serif; top: 320%; left: 65%; position: absolute; font-weight: 400;">67 reviews</h2>
+    <!-- add review -->
+    <button style="height: 20px; left: 40%; top: 326%; position: absolute; cursor: pointer; z-index: 1; border: none; background-color: transparent;" onclick="window.location.href='review.html'; ">
+        <h2 style="font-size: 18px; font-family: Georgia, sans-serif; font-weight: lighter; color: rgb(133, 133, 133)">Leave a review</h2>
+    </button>
+    <div class="Search3" style="width: 100%; height: 299px; transform: translateY(630%); position: relative; background: transparent; overflow-x: scroll; gap: 0px 320px">
+        <div class="ScrollReviews3" style="width: calc(60% - 40px); padding-right: 20px; left: 40%; top: 0%; position: absolute; justify-content: flex-start; align-items: flex-start; display: flex; overflow-x: auto;">
+            <div class="Doc3Revs" style="width: 1248px; height: 299px; position: relative;">
+                <img style="width: 1248px; height: 299px; left: 0px; top: 0px; position: absolute;" src="images/doc5_rev.png"/>
+            </div>
+        </div>
+    </div>
+    <!-- doc 6 -->
+    <img style="width: 307px; height: 370px; left: 10%; top: 368%; position: absolute; background-color: transparent;" src="images/doc6.png" />
+    <h2 style="font-size: 60px; font-family: Georgia, sans-serif; top: 365%; left: 40%; position: absolute; font-weight: 550;">Dr. Caesar Cassell</h2>
+    <h2 style="font-size: 18px; font-family: Georgia, sans-serif; top: 379%; left: 40%; position: absolute; font-weight: 400;">Physician in Riverside, California</h2>
+    <!-- n / 5 stars -->
+    <img style="width: 100%; width: 50px; left: 40%; top: 387%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 45%; top: 387%; position: absolute; background-color: transparent;" src="images/ystar.png" />
+    <img style="width: 100%; width: 50px; left: 50%; top: 387%; position: absolute; background-color: transparent;" src="images/gstar.png" />
+    <img style="width: 100%; width: 50px; left: 55%; top: 387%; position: absolute; background-color: transparent;" src="images/gstar.png" />
+    <img style="width: 100%; width: 50px; left: 60%; top: 387%; position: absolute; background-color: transparent;" src="images/gstar.png" />
+    <h2 style="font-size: 22px; font-family: Georgia, sans-serif; top: 387%; left: 65%; position: absolute; font-weight: 400;">92 reviews</h2>
+    <!-- add review -->
+    <button style="height: 20px; left: 40%; top: 393%; position: absolute; cursor: pointer; z-index: 1; border: none; background-color: transparent;" onclick="window.location.href='review.html'; ">
+        <h2 style="font-size: 18px; font-family: Georgia, sans-serif; font-weight: lighter; color: rgb(133, 133, 133)">Leave a review</h2>
+    </button>
+    <div class="Search3" style="width: 100%; height: 299px; transform: translateY(740%); position: relative; background: transparent; overflow-x: scroll; gap: 0px 320px">
+        <div class="ScrollReviews3" style="width: calc(60% - 40px); padding-right: 20px; left: 40%; top: 0%; position: absolute; justify-content: flex-start; align-items: flex-start; display: flex; overflow-x: auto;">
+            <div class="Doc3Revs" style="width: 1248px; height: 299px; position: relative;">
+                <img style="width: 1248px; height: 299px; left: 0px; top: 0px; position: absolute;" src="images/doc6_rev.png"/>
+            </div>
+        </div>
+    </div>
+    <button class="btn2">
+        <input type="text" id="Search" name="Search" maxlength="16" style="font-size: x-large; font-family: Georgia, sans-serif; background-color: transparent; width: 98%; height: 98%; border: none; position: absolute; top: 0%; right: 0%; border-radius: 20px;" placeholder=" Enter your state or physician"/>
+    </button>
+    <button style="background-image: url(images/search.png); background-repeat: no-repeat; width: 30px; background-size: contain; height: 30px; margin-left: 330px; left: 41%; top: 160px; position: absolute; cursor: pointer; z-index: 1; border: none; background-color: transparent;" onclick="window.location.href='search.html';"></button>
+</body>
+</html>
