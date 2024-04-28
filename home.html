@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .btn {
+            background-color: #64B5F6;
+            width: 150px;
+            height: 50px;
+            top: 15px;
+            right: 20px;
+            position: absolute;
+            cursor: pointer;
+            z-index: 1;
+            border: 0px;
+            border-radius: 20px;
+            align-items: center;
+        }
+        .btn2 {
+            background-color: #64B5F6;
+            width: 330px;
+            height: 51px;
+            top: 60%;
+            left: 8%;
+            position: absolute;
+            z-index: 1;
+            border: 0px;
+            border-radius: 20px;
+            align-items: center;
+        }
+
+        .btn:hover {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <img class="homePage_Bkg" style="width: 100%; min-width: 1300px; left: 0%; top: 0%; position: absolute" src="images/homepage_bkg.png" />
+    <button style="background-image: url(images/logo.png); background-repeat: no-repeat; width: 60px; background-size: contain; height: 80px; left: 10px; top: 10px; position: absolute; cursor: pointer; z-index: 1; border: none; background-color: transparent;" onclick="window.location.href='home.html';"></button>
+    <button style="height: 70px; left: 70px; top: 10px; position: absolute; cursor: pointer; z-index: 1; border: none; background-color: transparent;" onclick="window.location.href='home.html'; ">
+        <h2 style="font-size: 35px; font-family: Georgia, serif; font-weight: lighter;">Rate My Doctor</h2>
+    </button>
+    <h2 style="font-size: 70px; font-family: Georgia, sans-serif; top: 20%; left: 8%; position: absolute; font-weight: 550;">You deserve</h2>
+    <h2 style="font-size: 70px; font-family: Georgia, sans-serif; top: 30%; left: 8%; position: absolute; font-weight: 550;">the best.</h2>
+    <h2 style="font-size: 18px; font-family: Georgia, sans-serif; top: 47%; left: 8%; position: absolute; font-weight: 400;">Find trusted healthcare professionals in</h2>
+    <h2 style="font-size: 18px; font-family: Georgia, sans-serif; top: 50%; left: 8%; position: absolute; font-weight: 400;">your area with one simple search.</h2>
+    <button class="btn2">
+        <input type="text" id="Search" name="Search" maxlength="16" style="font-size: x-large; font-family: Georgia, sans-serif; background-color: transparent; width: 98%; height: 98%; border: none; position: absolute; top: 0%; right: 0%; border-radius: 20px;" placeholder=" Enter your state or physician"/>
+    </button>
+    <button style="background-image: url(images/search.png); background-repeat: no-repeat; width: 30px; background-size: contain; height: 30px; margin-left: 330px; left: 9%; top: 61%; position: absolute; cursor: pointer; z-index: 1; border: none; background-color: transparent;" onclick="window.location.href='search.html';"></button>
+</body>
+</html>
