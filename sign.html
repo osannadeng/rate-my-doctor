@@ -31,7 +31,7 @@
 <style>
     .text-container {
         position: absolute;
-        top: 0;
+        top: 70;
         right: 200;
         padding: 20px; /* Adjust padding as needed */
         display: flex;
@@ -53,33 +53,13 @@
     
     
 </style>
-<style>
-    /* Container for the text */
-    .cont {
-        position: fixed;
-        top: 47.5%;
-        left: 9.5%;
-        transform: translateY(-50%);
-    }
-    .cont2 {
-        position: fixed;
-        top: 55.5%;
-        left: 9.5%;
-        transform: translateY(-50%);
-    }
-    /* Text style */
-    .small-text {
-        font-size: 14px; /* Adjust font size as needed */
-        color: black;
-    }
-    
-</style>
+
 <style>
     /* Container for the button */
     .container {
         position: fixed;
-        top: 80%;
-        left: 15%;
+        top: 85%;
+        left: 75%;
         transform: translateY(-50%);
     }
 
@@ -97,6 +77,64 @@
     /* Hover effect */
     .button:hover {
         background-color: darkblue;
+    }
+</style>
+<style>
+    /* Container for the text box */
+    .containerText{
+        position: fixed;
+        top: 31%;
+        left: 63.5%;
+        transform: translateY(-50%);
+        background-color: transparent;
+    }
+    .containerText3{
+        position: fixed;
+        top: 53%;
+        left: 62%;
+        transform: translateY(-50%);
+        
+    }
+    /* Text box style */
+    .textbox {
+        width: 400px; /* Adjust width as needed */
+        height: 30px; /* Adjust height as needed */
+        padding: 5px; /* Adjust padding as needed */
+        border: 0px solid #a6b2c5; /* Add border */
+        border-radius: 5px; /* Add border radius */
+        background-color: transparent;
+    }
+    .label {
+        color: black; /* Change label color */
+    }
+</style>
+<style>
+    /* Container for the text box */
+    .containerText2{
+        position: fixed;
+        top: 42%;
+        left: 63.5%;
+        transform: translateY(-50%);
+        background-color: transparent;
+    }
+    .containerText4{
+        position: fixed;
+        top: 64%;
+        left: 63%;
+        transform: translateY(-50%);
+        background-color: transparent;
+    }
+    /* Text box style */
+    .textbox2 {
+        width: 401px; /* Adjust width as needed */
+        height: 30px; /* Adjust height as needed */
+        padding: 5px; /* Adjust padding as needed */
+        border: 0px solid #a6b2c5; /* Add border */
+        border-radius: 5px; /* Add border radius */
+        background-color: transparent;
+    }
+    .label {
+        color: black; /* Change label color */
     }
 </style>
 <head>
@@ -123,26 +161,33 @@
     </style>
 </head>
 <body>
-    <button style="background-image: url(images/logo.png); background-repeat: no-repeat; width: 60px; background-size: contain; height: 20px; left: 10px; top: 10px; position: absolute; cursor: pointer; z-index: 1; border: none; background-color: transparent;" onclick="window.location.href='index.html';"></button>
+    <button style="background-image: url(images/logo.png); background-repeat: no-repeat; width: 60px; background-size: contain; height: 280px; left: 13px; top: 11px; position: absolute; cursor: pointer; z-index: 1; border: none; background-color: transparent;" onclick="window.location.href='index.html';"></button>
     <button style="height: 90px; left: 90px; top: 10px; position: absolute; cursor: pointer; z-index: 1; border: none; background-color: transparent;" onclick="window.location.href='index.html'; ">
         <h1 style="font-size: 35px; font-family: Georgia, serif; font-weight: lighter;">Rate My Doctor</h1>
     </button>
-    <div class="image-container">
-        <img src="images/steth.png" alt="Tiny Image" class="tiny-image">
-        <!-- Replace 'your-tiny-image-url.jpg' with the URL or path to your tiny image -->
+  
+    <div class="containerText">
+        <label for="textbox" class="label">Name:</label>
+        <input type="text" class="textbox" placeholder="Enter Here: ">
     </div>
-    <div class="cont">
-        <p class="small-text">Username</p>
+    <div class="containerText2">
+        <label for="textbox2" class="label">Email:</label>
+        <input type="text" class="textbox2" placeholder="Enter Here: ">
     </div>
-    <div class="cont2">
-        <p class="small-text">Password</p>
+    <div class="containerText3">
+        <label for="textbox" class="label">Username:</label>
+        <input type="text" class="textbox" placeholder="Enter Here: ">
+    </div>
+    <div class="containerText4">
+        <label for="textbox2" class="label">Password:</label>
+        <input type="text" class="textbox2" placeholder="Enter Here: ">
     </div>
     <div class="container">
-        <button class="button">Log In!</button>
+        <button class="button"onclick="window.location.href='home.html'">Sign In!</button>
     </div>
     <style>
         body {
-            background-image: url('images/BGGG.png'); /* Replace 'your-image-url.jpg' with the URL or path to your image */
+            background-image: url('images/thesign.png'); /* Replace 'your-image-url.jpg' with the URL or path to your image */
             background-size: cover; /* This ensures the image covers the entire background */
             background-repeat: no-repeat; /* Prevent the image from repeating */
             
